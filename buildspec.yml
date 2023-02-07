@@ -13,7 +13,6 @@ phases:
     commands:
       - echo Entered the build phase...
       - echo Build started on `date`
-      - mvn install
       - mvn -B -DskipTests clean package
 artifacts:
   files:
