@@ -13,4 +13,4 @@ phases:
         - mvn -B -DskipTests clean package
 artifacts:
   files:
-    - */**
+    - '**/*'
