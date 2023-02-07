@@ -6,8 +6,7 @@ phases:
       java: corretto11
   build:
     commands:
-      - java -version
-      - mvn package
+      - mvn install
 artifacts:
   files:
     - '**/*'
