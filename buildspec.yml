@@ -3,13 +3,11 @@ version: 0.2
 phases:
   install:
     runtime-versions:
-        java: corretto11
-    commands:
-      - echo Entered the install phase...
-       
+      java: corretto11
   build:
     commands:
-      - mvn -B -DskipTests clean package
+      - java -version
+      - mvn package
 artifacts:
   files:
     - '**/*'
