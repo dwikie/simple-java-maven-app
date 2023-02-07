@@ -11,4 +11,6 @@ phases:
       - mvn -B -DskipTests clean package
 artifacts:
   files:
-    - '**/*'
+    - target/**/*
+    - scripts/**/*
+    - appspec.yml
