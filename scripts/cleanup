@@ -1,0 +1,2 @@
+#!/bin/bash -ex
+rm -rf /var/wwww/java-app/*

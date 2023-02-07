@@ -1,0 +1,5 @@
+#!/bin/bash -ex
+yum install -y java-17-amazon-corretto-headless
+yum install -y java-17-amazon-corretto
+yum install -y java-17-amazon-corretto-devel
+yum install -y java-17-amazon-corretto-jmods
